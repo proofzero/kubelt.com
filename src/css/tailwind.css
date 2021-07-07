@@ -1,0 +1,26 @@
+/* ./src/css/global.css */
+@tailwind base;
+@tailwind components;
+
+@font-face {
+  font-family: inter-regular;
+  src: url('/fonts/static/Inter-Regular.ttf'); }
+
+@font-face {
+  font-family: gilroy-bold;
+  src: url('/fonts/Gilroy-SemiBold.ttf'); }
+
+body, p, a, button {
+ font-family: inter-regular;
+}
+
+h1, h2, h3, h4 {
+ font-family: gilroy-bold;
+}
+
+/* h1 {
+  font-weight: 600;
+  font-size: 52px;
+} */
+
+@tailwind utilities;
