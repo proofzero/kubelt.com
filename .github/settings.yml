@@ -20,7 +20,7 @@ repository:
   vulnerability_alerts: true
 
 branches:
-  - name: main
+  - name: master
     protection:
       enforce_admins: true
       required_signed_commits: false
