@@ -10,7 +10,7 @@ const Community = ({ }) => {
                 <div class="sm:text-center">
                     <h2 class="text-3xl font-extrabold text-white tracking-tight sm:text-4xl">
 
-                    Join the search for galatic intelligence
+                    Join the search for galactic intelligence
                     </h2>
                     <p class="mt-6 mx-auto max-w-2xl text-lg text-white mb-10">
                       Get early access, free credits and more
