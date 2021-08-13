@@ -1,0 +1,2 @@
+(self.webpackChunkkubelt=self.webpackChunkkubelt||[]).push([[638],{9684:function(e,t,l){"use strict";l.r(t);var n=l(7294),u=l(7701),r=l(2248);t.default=function(){return n.createElement(n.Fragment,null,n.createElement(r.Z,null),n.createElement(u.ql,null,n.createElement("meta",{"http-equiv":"refresh",content:"0; https://pkg.go.dev/kubelt.com/kubelt"})))}}}]);
+//# sourceMappingURL=component---src-pages-docs-js-14746d2e9714dd8f43bf.js.map
