@@ -17,7 +17,7 @@ const Layout = ({ children }) => {
         {/* <!-- Go Imports --> */}
         <meta name="go-import" content="kubelt.com git https://github.com/proofzero/kubelt"></meta>
         <meta name="go-source" content="kubelt.com git https://github.com/proofzero/kubelt/tree/main/{/dir} https://github.com/proofzero/kubelt/tree/main/{/dir}/{file}#L{line}" ></meta>
-        <meta http-equiv="refresh" content="0; https://godoc.org/kubelt.com/kubelt"></meta>
+        <meta http-equiv="refresh" content="0; https://pkg.go.dev/kubelt.com/kubelt"></meta>
       </Helmet>
       <div class="min-h-screen">
           <div class="relative overflow-hidden">
