@@ -14,6 +14,10 @@ const Layout = ({ children }) => {
       <Helmet>
         <script src="https://widget.prefinery.com/widget/v2/dqialf2i.js" defer></script>
         <script src="https://embed.typeform.com/next/embed.js" defer></script>
+        {/* <!-- Go Imports --> */}
+        <meta name="go-import" content="kubelt.com git https://github.com/proofzero/kubelt"></meta>
+        <meta name="go-source" content="kubelt.com git https://github.com/proofzero/kubelt/tree/main/{/dir} https://github.com/proofzero/kubelt/tree/main/{/dir}/{file}#L{line}" ></meta>
+        <meta http-equiv="refresh" content="0; https://godoc.org/kubelt.com/kubelt"></meta>
       </Helmet>
       <div class="min-h-screen">
           <div class="relative overflow-hidden">
