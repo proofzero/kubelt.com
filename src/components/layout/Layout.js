@@ -16,6 +16,7 @@ const Layout = ({ children }) => {
         <script src="https://embed.typeform.com/next/embed.js" defer></script>
         {/* <!-- Go Imports --> */}
         <meta name="go-import" content="kubelt.com git https://github.com/proofzero/kubelt"></meta>
+        <meta name="go-import" content="kubelt.com/kmdr git https://github.com/proofzero/kubelt/kmdr"></meta>
         <meta name="go-source" content="kubelt.com git https://github.com/proofzero/kubelt/tree/main/{/dir} https://github.com/proofzero/kubelt/tree/main/{/dir}/{file}#L{line}" ></meta>
       </Helmet>
       <div class="min-h-screen">
@@ -23,7 +24,7 @@ const Layout = ({ children }) => {
           <Banner />
           <Header />
           <main>{children}</main>
-          <Footer />
+          { /* <Footer /> */}
         </div>
       </div>
     </>

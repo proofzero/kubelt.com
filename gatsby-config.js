@@ -6,7 +6,7 @@ const config = {
       options: {
         name: 'kubelt',
         short_name: 'kubelt',
-        description: 'The next advancement indata-driven work',
+        description: 'a universe of possibilities',
         lang: 'eng',
         display: 'standalone',
         start_url: '/',
@@ -22,9 +22,9 @@ const config = {
   ],
   siteMetadata: {
     title: "kubelt",
-    titleTemplate: "%s - Take control of your data.",
+    titleTemplate: "",
     description:
-      "The next advancement in data-driven work. Harness your data and let it fuel your work so you can focus on reaching new heights.",
+      "",
     url: "https://kubelt.com", // No trailing slash allowed!
     image: "/images/LogoShare.jpg", // Path to your image you placed in the 'static' folder
     twitterUsername: "@kubeltdata",

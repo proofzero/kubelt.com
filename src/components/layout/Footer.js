@@ -31,7 +31,7 @@ const Footer = () => {
               {/* Take control of your data. */}
             </p>
           </div>
-          <div className="mt-12 sm:w-full sm:max-w-md lg:mt-0 lg:ml-8 lg:flex-1">
+          { /* <div className="mt-12 sm:w-full sm:max-w-md lg:mt-0 lg:ml-8 lg:flex-1">
             <h2 className="mb-4 text-3xl tracking-tight text-white">Register for pre-release</h2>
             { !user ? (<form onSubmit={onSubmit} className="sm:flex">
               <label htmlFor="emailAddress" className="sr-only">
@@ -57,12 +57,6 @@ const Footer = () => {
                 </svg>) : 'Register' }
               </button>
             </form>) : (<h2 className="mt-4 text-2xl text-white font-extrabold kubelt-text-orange tracking-tight sm:text-3xl">Received</h2>)}
-            {/* <p className="mt-3 text-sm text-white">
-              We care about the protection of your data. Read our{' '}
-              <a href="#" className="text-white font-medium underline">
-                Privacy Policy.
-              </a>
-            </p>             */}
             <div class="flex justify-left space-x-6 md:order-2">
               <a href="https://twitter.com/kubeltdata" class="text-white hover:text-gray-500 pt-10">
                 <span class="sr-only">Twitter</span>
@@ -77,7 +71,7 @@ const Footer = () => {
                 </svg>
               </a>
             </div>
-            </div>
+  </div> */}
           </div>
         </div>
       </div>
