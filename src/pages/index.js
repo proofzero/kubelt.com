@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../components/layout/Layout'
-import Hero from '../components/Hero';
+import Preview from '../components/Preview';
 import Checkerboard from '../components/Checkerboard';
 import Community from '../components/Community';
 import Features from '../components/Features';
@@ -13,11 +13,11 @@ export default () => {
     <Layout>
       <SEO />
       {/* <SEO title="kubelt" description="" pagePath="/"/> */}
-      <Hero />
-      <Checkerboard />
-      <Community />
+      <Preview />
+      { /* <Checkerboard /> */}
+      {/*<Community /> */}
       {/* <Logos /> */}
-      <Features />
+      { /* <Features /> */}
     </Layout>
   );
 }
