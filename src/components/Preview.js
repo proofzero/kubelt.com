@@ -67,7 +67,7 @@ const Hero = ({  }) => {
               <div class="mt-10 sm:mt-12">
                   <div class="sm:flex">
                     <div class="mt-3 sm:mt-0">
-                      <a href="https://omq1ez0wxhd.typeform.com/to/IXfcN3Xf"class="button typeform-share block w-full py-4 px-8 rounded-md shadow kubelt-bg-orange text-white font-medium">
+                      <a href="https://omq1ez0wxhd.typeform.com/to/IXfcN3Xf" class="button text-center typeform-share block w-full py-4 px-8 rounded-md shadow kubelt-bg-orange text-white font-medium">
                         Get Early Access
                       </a>
                     </div>
