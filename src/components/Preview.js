@@ -88,10 +88,10 @@ const Hero = ({  }) => {
                 <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1"></div>
                 <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1"></div>
                 <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                    <img class="" src="/images/YCombinatorLogo.png" alt="Y Combinator"/>
+                    <img class="h-20" src="/images/YCombinatorLogo.png" alt="Y Combinator"/>
                 </div>
                 <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                    <img class="" src="/images/ProtocolLabsLogo.png" alt="Protocol Labs"/>
+                    <img class="h-20" src="/images/ProtocolLabsLogo.png" alt="Protocol Labs"/>
                 </div>
             </div>
       </div>
