@@ -26,7 +26,7 @@ const Hero = ({  }) => {
       <div class="mx-auto max-w-7xl lg:px-8">
         <div class="lg:grid lg:grid-cols-3 lg:gap-8">
           <div class="col-span-2 mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
-            <div class="lg:py-24 px-8">
+            <div class="lg:py-24 px-8 py-24">
               <a href="#" class="inline-flex items-center text-white rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200">
                 {/* <span class="px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide kubelt-bg-orange rounded-full">Pre Alpha</span> */}
                 {/* <svg class="ml-2 w-5 h-5 text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">

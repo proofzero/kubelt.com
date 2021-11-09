@@ -4,9 +4,9 @@ const config = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'kubelt',
+        name: 'kubelt - web3 CMS',
         short_name: 'kubelt',
-        description: 'a universe of possibilities',
+        description: 'A multiverse of possibilities',
         lang: 'eng',
         display: 'standalone',
         start_url: '/',
