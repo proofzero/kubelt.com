@@ -70,8 +70,8 @@ SEO.propTypes = {
 }
 
 SEO.defaultProps = {
-  title: null,
-  description: null,
+  title: "kubelt",
+  description: "A multiverse of possibilities",
   image: null,
   article: false,
 }

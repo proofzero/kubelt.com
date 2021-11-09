@@ -16,7 +16,6 @@ export default () => {
       <Preview />
       { /* <Checkerboard /> */}
       {/*<Community /> */}
-      {/* <Logos /> */}
       { /* <Features /> */}
     </Layout>
   );

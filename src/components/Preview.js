@@ -7,17 +7,17 @@ const Hero = ({  }) => {
   const [submitting, setSubmitting] = React.useState(false)
 
   const submitPrefinery = (email) => {
-    console.log(email)
-    setSubmitting(true)
-    window.prefinery('addUser', email, function(user) {
-      setUser(user) 
-      setSubmitting(false)
-    });
+    //console.log(email)
+    //setSubmitting(true)
+    //window.prefinery('addUser', email, function(user) {
+      //setUser(user) 
+      //setSubmitting(false)
+    //});
   }
 
   const onSubmit = (e) => { 
-    e.preventDefault()
-    if (!submitting) submitPrefinery(email)
+    //e.preventDefault()
+    //if (!submitting) submitPrefinery(email)
   }
 
   return (
@@ -26,7 +26,7 @@ const Hero = ({  }) => {
       <div class="mx-auto max-w-7xl lg:px-8">
         <div class="lg:grid lg:grid-cols-3 lg:gap-8">
           <div class="col-span-2 mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
-            <div class="lg:py-24 px-8">
+            <div class="lg:pt-24 px-8 pt-24">
               <a href="#" class="inline-flex items-center text-white rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200">
                 {/* <span class="px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide kubelt-bg-orange rounded-full">Pre Alpha</span> */}
                 {/* <svg class="ml-2 w-5 h-5 text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -34,8 +34,8 @@ const Hero = ({  }) => {
                 </svg> */}
               </a>
               <h1 class="mt-4 text-3xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-5xl lg:mt-6 xl:text-5xl">
-                <span class="block">An entire universe of </span>
-                    <span class="block kubelt-text-orange">possibilities</span>
+                <span class="text-lg block text-lg kubelt-text-orange my-2">web3 CMS</span>
+                <span class="blocktext-lg">A multiverse of possibilities</span>
               </h1>
               { /*<p class="mt-3 text-base text-white sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
               The data-centric platform for development, collaboration and delivery 
@@ -65,29 +65,35 @@ const Hero = ({  }) => {
               </a>
             </div>
               <div class="mt-10 sm:mt-12">
-                { !user ?
-                (<form onSubmit={onSubmit} class="sm:max-w-xl sm:mx-auto lg:mx-0">
                   <div class="sm:flex">
-                    <div class="min-w-0 flex-1">
-                      <label for="email" class="sr-only">Email address</label>
-                      <input value={email} onChange={(e) => setEmail(e.target.value)} id="email" type="email" placeholder="Enter your email" class="block w-full px-4 py-3 rounded-md border-0 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900" />
-                    </div>
-                    <div class="mt-3 sm:mt-0 sm:ml-3">
-                      <button type="submit" class="block w-full py-3 px-4 rounded-md shadow kubelt-bg-orange text-white font-medium">
-                        { submitting ? (<svg className="animate-spin h-5 w-5 mr-3 text-white" fill="none" viewBox="0 0 24 24">
-                        <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
-                        <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                        </svg>) : 'Register' }
-                      </button>
+                    <div class="mt-3 sm:mt-0">
+                      <a href="https://omq1ez0wxhd.typeform.com/to/IXfcN3Xf"class="button typeform-share block w-full py-4 px-8 rounded-md shadow kubelt-bg-orange text-white font-medium">
+                        Get Early Access
+                      </a>
                     </div>
                   </div>
-                  <p class="mt-3 pb-10 text-sm text-white sm:mt-4">We'll reach out soon with more details.</p>
-                </form>) :
-                (<h2 className=" -mt-text-3xl text-yellow-500 font-extrabold text-white tracking-tight sm:text-4xl">Received</h2>)}
               </div>
             </div>
           </div>
         </div>
+        <div class="relative mt-12 mx-4">
+            <h2 class="text-center text-2xl leading-8 font-extrabold tracking-tight text-white sm:text-2xl px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
+                Backed by
+            </h2>
+            {/* <p class="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">
+                fooo
+            </p> */}
+            </div>
+            <div class="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-6 px-4">
+                <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1"></div>
+                <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1"></div>
+                <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+                    <img class="" src="/images/YCombinatorLogo.png" alt="Y Combinator"/>
+                </div>
+                <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+                    <img class="" src="/images/ProtocolLabsLogo.png" alt="Protocol Labs"/>
+                </div>
+            </div>
       </div>
     </div>
   );
