@@ -67,12 +67,12 @@ const Hero = ({  }) => {
               <div class="mt-10 sm:mt-12">
                   <div class="sm:flex">
                     <div class="mt-3 sm:mt-0">
-                      <a href="https://omq1ez0wxhd.typeform.com/to/IXfcN3Xf" class="button text-center typeform-share block w-full py-4 px-8 rounded-md shadow kubelt-bg-orange text-white font-medium">
+                      <a href="https://omq1ez0wxhd.typeform.com/to/IXfcN3Xf" class="button text-center typeform-share block w-full py-4 px-8 rounded-md shadow kubelt-bg-green text-white font-medium">
                         Get Early Access
                       </a>
                     </div>
                     <div class="mt-3 sm:mt-0 mx-3">
-                      <a href="http://ipfs.io/ipfs/QmVxmWRtnYC3Rov3BbNmjSWsjXacH8NKS8Qeacgru5tK1p" target="_blank" class="button text-center typeform-share block w-full py-4 px-8 rounded-md shadow kubelt-bg-blue text-white font-medium">
+                      <a href="http://ipfs.io/ipfs/QmNfXy5uCQjEWabnAsvJJPGkKNc6wSZu9M9w2cNxQ8WTo8" target="_blank" class="button text-center typeform-share block w-full py-4 px-8 rounded-md shadow kubelt-bg-blue text-white font-medium">
                         Whitepaper
                       </a>
                     </div>
