@@ -3,16 +3,20 @@ main {
   z-index: 1;
 }
 
+.kubelt-bg-green {
+  background-color: #26a641;
+}
+
 .kubelt-bg-blue {
-  background-color: #1E4FFE;
+  background-color: #1e4ffe;
 }
 
 .kubelt-text-blue {
-  color: #1E4FFE;
+  color: #1e4ffe;
 }
 
 .kubelt-border-blue {
-  border-color: #1E4FFE;
+  border-color: #1e4ffe;
   border-width: 1px;
 }
 
@@ -30,70 +34,32 @@ main {
 }
 
 .kubelt-bg-orange {
-  background-color: #FDB23E;
+  background-color: #fdb23e;
 }
 
 .kubelt-text-orange {
-  color: #FDB23E;
+  color: #fdb23e;
 }
 
 .kubelt-border-orange {
-  border-color: #FDB23E;
+  border-color: #fdb23e;
   border-width: 1px;
 }
 
 #hero {
   position: relative;
-  background: 
-    url(/svg/Banner/Daylight/Rocket.svg),
-    url(/svg/Banner/Daylight/LaunchPad.svg),
-    url(/svg/Banner/Daylight/Cloud1.svg),
-    url(/svg/Banner/Daylight/Cloud2.svg),
-    url(/svg/Banner/Daylight/Comet1.svg),
-    url(/svg/Banner/Daylight/Comet2.svg),
-    url(/svg/Banner/Night/Ground.svg),
-    url(/svg/Banner/Night/Planet.svg),
+  background: url(/svg/Banner/Daylight/Rocket.svg), url(/svg/Banner/Daylight/LaunchPad.svg),
+    url(/svg/Banner/Daylight/Cloud1.svg), url(/svg/Banner/Daylight/Cloud2.svg),
+    url(/svg/Banner/Daylight/Comet1.svg), url(/svg/Banner/Daylight/Comet2.svg),
+    url(/svg/Banner/Night/Ground.svg), url(/svg/Banner/Night/Planet.svg),
     url(/svg/Banner/Night/Background.svg);
-  background-repeat: 
-    no-repeat,
-    no-repeat,
-    no-repeat,
-    no-repeat,
-    no-repeat,
-    no-repeat,
-    repeat-x,
-    no-repeat,
-    no-repeat;
-  background-position-x: 
-    calc(50% + 18rem),
-    calc(50% + 10rem),
-    calc(50% + 4rem),
-    calc(50% + 21rem),
-    calc(50% + 12rem),
-    calc(50% + 18rem),
-    center,
-    calc(50% + 28rem),
-    center;
-  background-position-y:
-    calc(100% - 3.2rem),
-    calc(100% - 1rem),
-    calc(50% + 3rem),
-    calc(50% - 4rem),
-    calc(50% - 12rem),
-    calc(50% - 10rem),
-    bottom,
-    calc(50% - 8rem),
-    center;
-  background-size: 
-    auto,
-    auto, 
-    auto, 
-    auto, 
-    auto, 
-    auto,
-    auto, 
-    auto,
-    cover;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, repeat-x,
+    no-repeat, no-repeat;
+  background-position-x: calc(50% + 18rem), calc(50% + 10rem), calc(50% + 4rem), calc(50% + 21rem),
+    calc(50% + 12rem), calc(50% + 18rem), center, calc(50% + 28rem), center;
+  background-position-y: calc(100% - 3.2rem), calc(100% - 1rem), calc(50% + 3rem), calc(50% - 4rem),
+    calc(50% - 12rem), calc(50% - 10rem), bottom, calc(50% - 8rem), center;
+  background-size: auto, auto, auto, auto, auto, auto, auto, auto, cover;
 }
 
 #community {
@@ -108,46 +74,30 @@ main {
   background-size: contain;
 }
 
-@media only screen 
-  /* and (min-device-width: 375px)  */
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
+@media only screen /* and (min-device-width: 375px) */ and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  #hero {
+    background: url(/svg/Banner/Night/Planet.svg), url(/svg/Banner/Night/Background.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position-x: calc(50% + 10rem), center;
+    background-position-y: calc(50% - 2rem), center;
+    background-size: auto, cover;
+  }
 
-    #hero {
-      background: 
-        url(/svg/Banner/Night/Planet.svg),
-        url(/svg/Banner/Night/Background.svg);
-      background-repeat: 
-        no-repeat,
-        no-repeat;
-      background-position-x: 
-        calc(50% + 10rem),
-        center;
-      background-position-y:
-        calc(50% - 2rem),
-        center;
-      background-size: 
-        auto,
-        cover;
-    }
+  #community {
+    /* height: 100vh; */
+  }
 
-    #community {
-      /* height: 100vh; */
-    }
+  #galaxy {
+    background-position-x: center;
+    background-position-y: calc(100% - 7rem);
+    height: 80vh;
+    padding-top: 22rem !important;
+  }
 
-    #galaxy {
-      background-position-x: center;
-      background-position-y: calc(100% - 7rem);
-      height: 80vh;
-      padding-top: 22rem !important;
-    }
-
-    /* #features {
+  /* #features {
       display: none;
     } */
 }
-
 
 /* #galaxy {
   background:
@@ -191,52 +141,27 @@ main {
   position: relative;
   background: 
     /* url(/svg/Banner/Daylight/Rocket.svg), */
-    /* url(/svg/Banner/Daylight/LaunchPad.svg), */
-    url(/svg/Banner/Daylight/Cloud1.svg),
-    url(/svg/Banner/Daylight/Cloud2.svg),
-    url(/svg/Banner/Daylight/Comet1.svg),
+    /* url(/svg/Banner/Daylight/LaunchPad.svg), */ url(/svg/Banner/Daylight/Cloud1.svg),
+    url(/svg/Banner/Daylight/Cloud2.svg), url(/svg/Banner/Daylight/Comet1.svg),
     url(/svg/Banner/Daylight/Comet2.svg),
-    /* url(/svg/Banner/Night/Ground.svg), */
-    /* url(/svg/Banner/Night/Planet.svg), */
-    url(/svg/Banner/Night/Background.svg);
+    /* url(/svg/Banner/Night/Ground.svg), */ /* url(/svg/Banner/Night/Planet.svg), */
+      url(/svg/Banner/Night/Background.svg);
   background-repeat: 
     /* no-repeat, */
-    /* no-repeat, */
-    no-repeat,
-    no-repeat,
-    no-repeat,
-    no-repeat,
-    /* repeat-x, */
-    /* no-repeat, */
-    no-repeat;
+    /* no-repeat, */ no-repeat, no-repeat, no-repeat,
+    no-repeat, /* repeat-x, */ /* no-repeat, */ no-repeat;
   background-position-x: 
     /* calc(50% + 18rem), */
-    /* calc(50% + 10rem), */
-    calc(50% + 4rem),
-    calc(50% + 21rem),
-    calc(50% + 12rem),
-    calc(50% + 18rem),
-    /* center, */
-    /* calc(50% + 28rem), */
-    center;
+    /* calc(50% + 10rem), */ calc(50% + 4rem),
+    calc(50% + 21rem), calc(50% + 12rem), calc(50% + 18rem),
+    /* center, */ /* calc(50% + 28rem), */ center;
   background-position-y:
     /* calc(100% - 3.2rem), */
-    /* calc(100% - 1rem), */
-    calc(22% + 3rem),
-    calc(22% - 4rem),
-    calc(35% - 12rem),
-    calc(35% - 10rem),
-    /* bottom, */
-    /* calc(50% - 8rem), */
-    center;
+    /* calc(100% - 1rem), */ calc(22% + 3rem),
+    calc(22% - 4rem), calc(35% - 12rem), calc(35% - 10rem),
+    /* bottom, */ /* calc(50% - 8rem), */ center;
   background-size: 
     /* auto, */
-    /* auto,  */
-    auto, 
-    auto, 
-    auto, 
-    auto,
-    /* auto,  */
-    /* auto, */
-    cover;
+    /* auto,  */ auto, auto, auto, auto,
+    /* auto,  */ /* auto, */ cover;
 }
