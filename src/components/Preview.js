@@ -72,7 +72,7 @@ const Hero = ({  }) => {
                       </a>
                     </div>
                     <div class="mt-3 sm:mt-0 mx-3">
-                      <a href="http://ipfs.io/ipfs/QmNfXy5uCQjEWabnAsvJJPGkKNc6wSZu9M9w2cNxQ8WTo8" target="_blank" class="button text-center typeform-share block w-full py-4 px-8 rounded-md shadow kubelt-bg-blue text-white font-medium">
+                      <a href="https://ipfs.io/ipns/k51qzi5uqu5djd0aje0mf1l5zpxzu5y9vuhlgrjlna4ikj818tzwdxsby6y57x" target="_blank" class="button text-center typeform-share block w-full py-4 px-8 rounded-md shadow kubelt-bg-blue text-white font-medium">
                         Whitepaper
                       </a>
                     </div>
